@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  border: 1px solid black;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.form button {
+  max-width: 150px;
+  cursor: pointer;
+}
